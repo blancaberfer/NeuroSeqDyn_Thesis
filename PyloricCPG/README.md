@@ -10,23 +10,23 @@ It explores the role of electrical synapses in shaping cycle-by-cycle dynamics o
 
 ## 📁 Folder contents
 
-- `script.sh`: Compilation and execution script.
-- `condiciones_iniciales.txt`: Initial conditions.
-- `codigo_c/`: C source code specific to this model.
-- `resultados_ejemplo/`: Sample output files.
-- `analisis_python/`: Python scripts for data visualization.
+- `script_komendantov.sh`: Compilation and execution script.
+- `entrada_parametros`: Initial conditions of conductance, calcium concentration and for the firing modes of the KK model: regular, chaotic, chaotic burst.
+- `komendantov_pyloric_CPG_elecSIM.c`: C source code specific to this model.
+- `example_results/`: Sample output files.
+- `codes_python/`: Python scripts for data visualization.
 
 ## ▶️ How to run the code
 
 ```bash
-chmod +x script.sh
-./script.sh
+chmod +x script_komendantov.sh
+./script_komendantov.sh
 
 ## 📊 Analysis and plotting
 
 Plot dynamics using the included scripts:
 
-python3 analisis_python/plot_dynamics.py resultados_ejemplo/variables.txt
+python3 codes_python/plot_dynamics.py 
 
 ## 📎 Notes
 
