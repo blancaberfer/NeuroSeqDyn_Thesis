@@ -6,20 +6,29 @@ This folder contains the simulation code and analysis tools used for Chapter 6 o
 
 This simulation uses the Komendantov-Kononenko model for a network of **3 coupled neurons**, focusing on how excitability and variability influence sequential activation and synchronization.
 
+This chapter explores two distinct configurations:
+
+- **SIEC**: Slow Electrical Inhibitory Coupled neuron  
+- **FIEC**: Fast Electrical Inhibitory Coupled neuron
+
+Each folder contains the specific implementation and outputs for that configuration.
+
 The system is solved using a **6th-order Runge-Kutta integrator**.
 
 ## 📁 Folder contents
 
-- `script.sh`: Script to compile and run the C code.
-- `condiciones_iniciales.txt`: Initial conditions file.
-- `codigo_c/`: C source code for the model.
-- `resultados_ejemplo/`: Sample output files from a test simulation.
-- `analisis_python/`: Python scripts for visualization and post-processing.
+- `KK_SIEC_neuron/`
+	- `script_komendantov.sh`: Script to compile and run the C code.
+	- `initial_parameters`: Initial conditions file.
+	- `komendantov_SIEC.c`: C source code for the model.
+
+- `KK_FIEC_neuron/`  
+	- Same structure as above, adapted for the FIEC configuration.
 
 ## ▶️ How to run the code
 
 ```bash
-chmod +x script.sh
+chmod +x script_komendantov.sh
 ./script.sh
 
 ## 📊 Analysis and plotting
