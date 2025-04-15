@@ -33,13 +33,26 @@ Simulations of a full pyloric CPG model including electrical (gap junction) conn
 
 ---
 
-### 🎓 Additional Materials  
-➡️ [`MaterialAdicional/`](./MaterialAdicional/)  
-Includes:
-- Research articles
-- Simulation videos
-- Thesis defense slides (to be added)
-- Link to the final published thesis (to be added)
+## 📊 Analysis Tools (Python)  
+➡️ [`Python_analysis/`](./Python_analysis/)  
+General-purpose scripts for plotting and analyzing simulation results across all chapters.
+
+You can install the Python dependencies using:
+
+```bash
+pip install -r Python_analysis/requirements.txt
+```
+---
+
+## 📂 Supplementary Material (in progress)
+
+This section will include additional materials related to the thesis:
+
+    Papers/ – Published articles based on the results presented (to be added).
+
+    Thesis/ – The official version of the defended thesis (coming soon).
+
+    Slides/ – Presentation slides used during the thesis defense (to be added).
 
 ---
 
@@ -47,13 +60,26 @@ Includes:
 
 - GCC or any standard C compiler
 - Bash-compatible terminal
-- Python 3.x with common packages (e.g. `numpy`, `matplotlib`) for plotting
+- Python 3.x with packages listed in `Python_analysis/requirements.txt` (e.g. `numpy`, `scipy`, `matplotlib`, `pyspike`, etc.)
+
 
 ## 🧪 Reproducibility
 
 Each folder is self-contained and includes a `README.md` with specific instructions on how to run the code and reproduce the main results of that chapter.
 
 If you encounter any issues or would like to collaborate, feel free to open an issue or contact me.
+
+## 🧼 C Code Style
+
+All C source files follow a consistent code style defined in the .clang-format file.
+
+To apply the formatting to all .c files:
+
+```bash 
+find . -name "*.c" -exec clang-format -i {} \;
+```
+
+The style is based on the Google style guide, with custom indentation and spacing to improve clarity for neural simulations.
 
 ---
 

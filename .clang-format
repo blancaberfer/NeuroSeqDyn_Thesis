@@ -1,0 +1,21 @@
+BasedOnStyle: Google
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 100
+AllowShortIfStatementsOnASingleLine: false
+BreakBeforeBraces: Attach
+SpacesBeforeTrailingComments: 1
+SpaceAfterCStyleCast: true
+SortIncludes: false
+BasedOnStyle: Google
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 100
+AllowShortIfStatementsOnASingleLine: false
+BreakBeforeBraces: Attach
+SpacesBeforeTrailingComments: 1
+SpaceAfterCStyleCast: true
+SortIncludes: false
+
