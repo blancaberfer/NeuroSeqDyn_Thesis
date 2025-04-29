@@ -54,6 +54,7 @@ This section will include additional materials related to the thesis:
 
     Slides/ – Presentation slides used during the thesis defense (to be added).
 
+    video/  - Multimedia files have been created, incorporing both the real invariant and the simulation.
 ---
 
 ## 💾 Requirements
