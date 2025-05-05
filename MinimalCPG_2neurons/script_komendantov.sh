@@ -33,5 +33,5 @@ VAR2=0		# Value for calculating Lyapunov coefficients (1 == ‘Yes’, 0 == ‘N
 
 # Programme execution
 
-./komendantov_X_f-PD_s_lyap_corr entrada_parametros $VAR1 $VAR2
+./komendantov_X_f-Y_s_lyap_corr entrada_parametros $VAR1 $VAR2
 
