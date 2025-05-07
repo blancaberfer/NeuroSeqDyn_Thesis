@@ -65,7 +65,9 @@ pip install -r requirements.txt
 
 After running the C simulations and generating the required input data, you can execute the analysis scripts:
 
+```bash
 python main_figure_XXXX
+```
 
 The resulting figures will be saved automatically in the corresponding folder.
 
@@ -77,15 +79,15 @@ This ensures compatibility when running the code from different environments wit
 
 The working directory is configured inside each script using:
 
+```bash
 import os
 
 separator = os.path.sep
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = separator.join(current_dir.split(separator)[:-1])
+```
 
 Thus, the scripts expect to find the data folders (e.g., TIME_INTERVALS/) and the output folders (e.g., SEABORN/) at the same level as the Python_analysis/ directory.
-Data Organization
-
 
     ⚠️ Note: The data folders are not included in the repository.
     They must be created by running the C simulation codes first, and will be automatically populated when the Python scripts are executed.
