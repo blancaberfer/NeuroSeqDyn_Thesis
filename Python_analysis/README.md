@@ -59,6 +59,7 @@ You can install all dependencies with:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 
