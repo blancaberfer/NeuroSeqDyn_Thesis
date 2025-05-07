@@ -10,7 +10,7 @@ Last edit: Thu Dec 26 10:06:00 2024
 
 # --------------------------------------------------------------------#
 #                                                                     #
-# Comparison of 2 intervals, pyloric circuit        				  #
+# Comparison of 2 intervals, pyloric circuit                          #
 #                                                                     #
 # --------------------------------------------------------------------#
 
