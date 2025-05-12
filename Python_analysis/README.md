@@ -4,6 +4,25 @@ This directory contains the data analysis scripts related to **Part II - Results
 
 ## Contents
 
+### Chapter 6
+
+- **main_figure_6-3.py**  
+  Script to generate Figure 6-3, cycle-by-cycle pair comparison of all time intervals deined in the biphasic rhythm. 
+
+- **main_figure_6-4.py**  
+  Script to generate Figure 6-4, representin sequential ctivity for isolated two electrically coupled KK model neuron. 
+
+- **main_figure_6-5.py**  
+  Script to generate Figure 6-5, characterazing the time Interval variability and neuron excitability in the pacemaker group as a function of electrical coupling. 
+
+- **main_figure_6-9.py**  
+  Script to generate Figure 6-9, cycle-by-cycle ISI evolution for neurons in the SIEC configuration for different electrical coupling levels.
+
+- **main_figure_6-12.py**  
+  Script to generate Figure 6-12, summarizing cycle-by-cycle comparison of time intervals building the dynamical invariants under different coupling conditions.
+
+### Chapter 7
+
 - **main_figure_7-3.py**  
   Script to generate Figure 7-3, showing triphasic rhythm for a given conductance values in the pyloric CPG.
 
