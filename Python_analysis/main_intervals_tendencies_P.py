@@ -8,11 +8,11 @@ Last edit: Tue Dec 18 10:06:00 2024
 @author: Blanca Berbel
 """
 
-# --------------------------------------------------------------------------------------------#
-#                                                                                             #
-# Tendencia de los intervalos y variabilidad: para los valores de P con ritmo3fásico          #
-#                                                                                             #
-# --------------------------------------------------------------------------------------------#
+# ------------------------------------------------------------------------#
+#                                                                         #
+# Interval trend and variability: for P-values with rhythm3phase          #
+#                                                                         #
+# ------------------------------------------------------------------------#
 
 import os
 import matplotlib.pyplot as plt
